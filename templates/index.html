@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="shortcut icon" type="image-x/icon" href="https://firebasestorage.googleapis.com/v0/b/ask-fun-d10f0.appspot.com/o/images%2FTJAaVdUSNPWpoBoNSn4hXdS4X9J2.jpg?alt=media&token=2adffdb9-0f36-4dc9-a66a-82f19c6e1d34">
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<title> Haxinja~ NGL SPAM</title>
+</head>
+<body class="d-flex justify-content-center">
+    <div class="banner mb-3">
+        <div class="text-center container-fluid mt-5">
+            <h2>NGL SPAM</h2>
+            <div class="d-flex justify-content-center align-items-center">
+                <img class="mx-1 rounded-circle" src="https://firebasestorage.googleapis.com/v0/b/ask-fun-d10f0.appspot.com/o/images%2FTJAaVdUSNPWpoBoNSn4hXdS4X9J2.jpg?alt=media&token=2adffdb9-0f36-4dc9-a66a-82f19c6e1d34" height="50" width="50">
+                <h5 style="font-weight:bold;">By: <a style="text-shadow: 0px 2px 1px rgb(0,0,0,0.6); color: rgb(255,0,0,0.6); text-decoration: none; font-style: italic;" href="https://www.instagram.com/haxinja/">@haxinja</a></h5>
+            </div>
+        </div>
+        <div class="form-wrap mt-5">
+            <form method="POST" action="/spam">
+                <div class="ctext-wrap d-flex p-3">
+                    <div class="d-flex container-fluid desc justify-content-center">
+                        <div class="mx-2">
+                            <label>Username: </label>
+                            <input name="user" type="text" placeholder="John Doe" class="form-control">   
+                        </div>
+                        <div class="mx-2">
+                            <label>Spam Amount: </label>
+                            <input name="amount" type="number" placeholder="0" class="form-control">
+                        </div> 
+                    </div>
+                </div>
+                <div class="formz">
+                    <textarea name="msg" placeholder="Spam Message here.."></textarea>
+                    <input class="btn" type="submit" name="send" value="Send!">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<style type="text/css">
+:root{
+	--bg-msg: 0.6;
+}
+body{
+	background: rgb(223,94,204);
+	background: linear-gradient(313deg, rgba(223,0,204,1) 0%, rgba(69,193,217,1) 100%, rgba(28,180,226,1) 100%);
+	background-attachment: fixed;
+}
+.form-wrap{
+	width: 550px;
+	margin: 0;
+	border-top-right-radius: 35px;
+	border-top-left-radius: 35px;
+	border-radius: 35px;
+	background-color: white;
+}
+.form-wrap .formz{
+	border-radius: 20px;
+	background: linear-gradient(313deg, rgba(223,94,204,var(--bg-msg)) 0%, rgba(69,193,217,var(--bg-msg)) 100%, rgba(28,180,226,var(--bg-msg)) 100%);
+}
+.form-wrap .formz input{
+	color: white;
+	font-weight: bold;
+	width: 550px;
+	border-radius: 30px;
+	background-color: black;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 0x;
+	font-size: 23px;
+}
+.form-wrap textarea{
+	outline: none;
+	text-decoration: none;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	height: 20vh;
+	background-color: transparent;
+	width: 100%;
+}
+@media (max-width: 700px){
+	.form-wrap form input{
+		width: 100%;
+	}
+}
+</style>
+<script type="text/javascript">
+</script>
+</html>
